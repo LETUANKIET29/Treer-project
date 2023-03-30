@@ -1,0 +1,86 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Feb 26, 2023, 11:31:59 PM
+    Author     : Ducbui
+*/
+table.shopping{
+    padding: 10px;
+    margin: 0px 0px;
+    border-radius: 4px;
+}
+
+.giua{
+    text-align: center;
+}
+.list{
+    padding: 20px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    background-color: white;
+}
+
+a.linkten{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.imagePlant{
+    width: 60px;
+    height: 80px;
+}
+
+button.submitorder{
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 4px;
+    padding: 6px 12px;
+    border: 1px solid;
+    margin: 5px;
+    margin-left: 200px;
+}
+button.submitorder:hover{
+    background-color: orange;
+}
+
+.nut:hover{
+    background-color: orange;
+}
+
+button.muatiep{
+    color: white;
+    padding: 6px 12px;
+    border-radius: 4px;
+    border: 1px solid;
+    margin: 5px;
+    margin-right: 200px;
+    background-color: #f0ad4e;
+}
+button.muatiep:hover{
+    background-color: orange;
+}
+button.muatiep a{
+    color: white;   
+    text-decoration: none;
+}
+.bot_ma{
+    background-color: #fff;
+    text-align: center;
+}
+
+.bot{
+    display: inline-block;
+}
+
+.bot:first-child{
+    text-align: right;
+    margin-left: 14px;
+}
+
+.last_bot{
+    display: flex; /* Sử dụng kiểu hiển thị flex */
+    justify-content: space-between; /* Các phần tử con sẽ được căn đều hai bên */
+    align-items: center; /* Các phần tử con sẽ được canh giữa theo trục y */
+}
